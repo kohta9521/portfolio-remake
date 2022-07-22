@@ -11,6 +11,22 @@
 body {
     background-color: black;
 }
+
+.side__logo--common {
+    position: relative;
+    left: -194px;
+    top: 350px;
+    width: 600px;
+    height: 250px;
+    transform: rotate(-90deg);
+    margin-left: 0;
+    & h1 {
+        font-weight: 800;
+        font-size: 150px;
+        line-height: 170px;
+        color: rgba(255, 255, 255, 0.23);
+    }
+}
 // header 記述部分
 .header {
     width: 100%;
