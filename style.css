@@ -166,6 +166,73 @@
   border-bottom: 2px solid #ffffff;
 }
 
+.sec__3 {
+  background: url(.//assets/img/backside.jpg);
+  background-size: cover;
+}
+
+.sec__content--3 {
+  position: relative;
+  top: 250px;
+  left: 980px;
+  width: 480px;
+  height: 220px;
+  background: rgba(5, 227, 0, 0.85);
+  -webkit-backdrop-filter: blur(4px);
+          backdrop-filter: blur(4px);
+  border-radius: 5px;
+  z-index: 0;
+}
+.sec__content--3 h3 {
+  color: white;
+  font-weight: 800;
+  font-size: 20px;
+  display: block;
+  padding-top: 25px;
+  padding-left: 25px;
+}
+.sec__content--3 h2 {
+  font-weight: 800;
+  font-size: 50px;
+  line-height: 54px;
+  color: white;
+  display: block;
+  padding-top: 10px;
+  padding-left: 25px;
+}
+.sec__content--3 p {
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 22px;
+  color: white;
+  padding-left: 25px;
+  padding-top: 10px;
+}
+.sec__content--3 .border1 {
+  position: relative;
+  top: 30px;
+  left: 25px;
+  width: 170px;
+  height: 3px;
+  border-bottom: 1px solid #FFFFFF;
+}
+
+.side__logo--3 {
+  position: relative;
+  left: -198px;
+  top: 250px;
+  width: 600px;
+  height: 250px;
+  transform: rotate(-90deg);
+  margin-left: 0;
+}
+.side__logo--3 h1 {
+  font-weight: 800;
+  font-size: 150px;
+  line-height: 170px;
+  color: rgba(255, 255, 255, 0.23);
+}
+
 /*! destyle.css v3.0.2 | MIT License | https://github.com/nicolas-cusan/destyle.css */
 /* Reset box-model and set borders */
 /* ============================================ */
@@ -561,6 +628,26 @@ th {
   height: 100vh;
 }
 
+body {
+  background-color: black;
+}
+
+.side__logo--common {
+  position: relative;
+  left: -194px;
+  top: 350px;
+  width: 600px;
+  height: 250px;
+  transform: rotate(-90deg);
+  margin-left: 0;
+}
+.side__logo--common h1 {
+  font-weight: 800;
+  font-size: 150px;
+  line-height: 170px;
+  color: rgba(255, 255, 255, 0.23);
+}
+
 .header {
   width: 100%;
   height: 100px;
@@ -575,10 +662,11 @@ th {
 }
 .header .header__logo h2 {
   font-weight: 800;
-  font-size: 16px;
+  font-size: 20px;
   line-height: 21px;
   color: white;
   padding-top: 40px;
+  font-family: "Oswald", sans-serif;
 }
 .header .header__list {
   width: 500px;
@@ -590,10 +678,11 @@ th {
 .header .header__list .header__nav .header__nav--item {
   position: relative;
   font-weight: 700;
-  font-size: 14px;
+  font-size: 19px;
   line-height: 18px;
   margin-right: 40px;
   padding-top: 70px;
   color: white;
   z-index: 3;
+  font-family: "Oswald", sans-serif;
 }/*# sourceMappingURL=style.css.map */
