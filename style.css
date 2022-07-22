@@ -86,6 +86,86 @@
   border-bottom: 2px solid #ffffff;
 }
 
+.sec__2 {
+  background: url(.//assets/img/video.jpg);
+  background-size: cover;
+}
+
+.sec__content--2 {
+  position: relative;
+  top: 540px;
+  left: 80px;
+  width: 480px;
+  height: 220px;
+  background: #A71987;
+  -webkit-backdrop-filter: blur(4px);
+          backdrop-filter: blur(4px);
+  border-radius: 5px;
+  z-index: 0;
+}
+.sec__content--2 h3 {
+  color: white;
+  font-weight: 800;
+  font-size: 20px;
+  display: block;
+  padding-top: 25px;
+  padding-left: 25px;
+}
+.sec__content--2 h2 {
+  font-weight: 800;
+  font-size: 50px;
+  line-height: 54px;
+  color: white;
+  display: block;
+  padding-top: 10px;
+  padding-left: 25px;
+}
+.sec__content--2 p {
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 22px;
+  color: white;
+  padding-left: 25px;
+  padding-top: 10px;
+}
+
+.side__logo--2 {
+  position: relative;
+  left: 1190px;
+  top: 30px;
+  width: 600px;
+  height: 250px;
+  transform: rotate(-90deg);
+  margin-left: 0;
+}
+.side__logo--2 h1 {
+  font-weight: 800;
+  font-size: 150px;
+  line-height: 170px;
+  color: rgba(255, 255, 255, 0.23);
+}
+
+.sec__bottom--2 {
+  width: 400px;
+  height: 100px;
+  display: flex;
+  position: relative;
+  top: 290px;
+  left: 1100px;
+}
+.sec__bottom--2 h3 {
+  font-weight: 500;
+  color: white;
+}
+.sec__bottom--2 .border2--2 {
+  padding: 7px 10px 0 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 170px;
+  height: 3px;
+  border-bottom: 2px solid #ffffff;
+}
+
 /*! destyle.css v3.0.2 | MIT License | https://github.com/nicolas-cusan/destyle.css */
 /* Reset box-model and set borders */
 /* ============================================ */
