@@ -48,6 +48,7 @@
             }
         }
     }
+
     & .about__content--skill {
         width: 100%;
         height: 1500px;
@@ -77,6 +78,44 @@
                 color: white;
                 margin-top: 30px;
                 margin-left: 50px;
+            }
+        }
+        & .about__skill--flex {
+            width: 100%;
+            height: 400px;
+            display: flex;
+            justify-content: space-between;
+            & .about__skill--front {
+                width: 40%;
+                height: 400px;
+                background-color: aqua;
+                margin-left: 50px;
+            }
+            & .about__skill--back {
+                width: 40%;
+                height: 400px;
+                background-color: aqua;
+                margin-right: 50px;
+            }
+        }
+        & .about__skill--others {
+            width: 100%;
+            height: 300px;
+            margin-top: 40px;
+            margin-bottom: 100px;
+            display: flex;
+            justify-content: space-between;
+            & .about__skill--right {
+                width: 40%;
+                height: 300px;
+                background-color: aqua;
+                margin-left: 50px;
+            }
+            & .about__skill--left {
+                width: 40%;
+                height: 300px;
+                background-color: aqua;
+                margin-right: 50px;
             }
         }
     }
