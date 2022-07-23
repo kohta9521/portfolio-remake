@@ -47,10 +47,37 @@
                 line-height: 22px;
             }
         }
-    }& .about__content--skill {
+    }
+    & .about__content--skill {
         width: 100%;
-        height: 1000px;
-        margin-top: 100px;
-        background-color: antiquewhite;
+        height: 1500px;
+        margin-top: 200px;
+        & .about__content--titlearea {
+            width: 100%;
+            height: 300px;
+            & h1 {
+                font-weight: 400;
+                font-size: 70px;
+                line-height: 54px;
+                color: rgba(255, 255, 255, 0.54);
+                margin-left: 50px;
+            }
+            & .about__content--subtitle {
+                font-weight: 400;
+                font-size: 25px;
+                line-height: 22px;
+                color: white;
+                margin-left: 50px;
+                margin-top: 50px;
+            }
+            & p {
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 30px;
+                color: white;
+                margin-top: 30px;
+                margin-left: 50px;
+            }
+        }
     }
 }
