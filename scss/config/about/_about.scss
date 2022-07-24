@@ -95,30 +95,6 @@
                     line-height: 22px;
                     color: white;
                 }
-                & .bar-graph-wrap {
-                    position: relative;
-                    height: 350px;
-                    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
-                    & .graph {
-                        height: 20px;
-                        position: absolute;
-                        left: 0;
-                        top: 0;
-                        bottom: 0;
-                        margin: auto;
-                        background: #FFE600;
-                        width: 88%;
-                        border-radius: 0 4px 4px 0;
-                        display: flex;
-                        align-items: center;
-                        justify-content: space-between;
-                        padding: 10px;
-                        & .span {
-                            font-size: 14px;
-                            color: #ffffff;
-                        }
-                    }
-                }
             }
             & .about__skill--back {
                 width: 40%;

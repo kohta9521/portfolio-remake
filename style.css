@@ -333,30 +333,6 @@
   line-height: 22px;
   color: white;
 }
-.about__main .about__content--skill .about__skill--flex .about__skill--front .bar-graph-wrap {
-  position: relative;
-  height: 350px;
-  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
-}
-.about__main .about__content--skill .about__skill--flex .about__skill--front .bar-graph-wrap .graph {
-  height: 20px;
-  position: absolute;
-  left: 0;
-  top: 0;
-  bottom: 0;
-  margin: auto;
-  background: #FFE600;
-  width: 88%;
-  border-radius: 0 4px 4px 0;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 10px;
-}
-.about__main .about__content--skill .about__skill--flex .about__skill--front .bar-graph-wrap .graph .span {
-  font-size: 14px;
-  color: #ffffff;
-}
 .about__main .about__content--skill .about__skill--flex .about__skill--back {
   width: 40%;
   height: 400px;
