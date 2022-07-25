@@ -346,7 +346,7 @@
   font-size: 15px;
 }
 .about__main .about__content--skill .about__skill--flex .about__skill--front .bar-graph-wrap .graph--html {
-  height: 10px;
+  height: 5px;
   position: absolute;
   left: 0;
   top: 0;
@@ -357,7 +357,7 @@
   border-radius: 0 4px 4px 0;
 }
 .about__main .about__content--skill .about__skill--flex .about__skill--front .bar-graph-wrap .graph--css {
-  height: 10px;
+  height: 5px;
   position: absolute;
   left: 0;
   top: 0;
@@ -368,7 +368,7 @@
   border-radius: 0 4px 4px 0;
 }
 .about__main .about__content--skill .about__skill--flex .about__skill--front .bar-graph-wrap .graph--scss {
-  height: 10px;
+  height: 5px;
   position: absolute;
   left: 0;
   top: 0;
@@ -379,7 +379,7 @@
   border-radius: 0 4px 4px 0;
 }
 .about__main .about__content--skill .about__skill--flex .about__skill--front .bar-graph-wrap .graph--js {
-  height: 10px;
+  height: 5px;
   position: absolute;
   left: 0;
   top: 0;
@@ -413,7 +413,7 @@
   font-size: 15px;
 }
 .about__main .about__content--skill .about__skill--flex .about__skill--back .bar-graph-wrap .graph--php {
-  height: 10px;
+  height: 5px;
   position: absolute;
   left: 0;
   top: 0;
@@ -424,7 +424,7 @@
   border-radius: 0 4px 4px 0;
 }
 .about__main .about__content--skill .about__skill--flex .about__skill--back .bar-graph-wrap .graph--sql {
-  height: 10px;
+  height: 5px;
   position: absolute;
   left: 0;
   top: 0;
@@ -435,7 +435,7 @@
   border-radius: 0 4px 4px 0;
 }
 .about__main .about__content--skill .about__skill--flex .about__skill--back .bar-graph-wrap .graph--java {
-  height: 10px;
+  height: 5px;
   position: absolute;
   left: 0;
   top: 0;
@@ -446,7 +446,7 @@
   border-radius: 0 4px 4px 0;
 }
 .about__main .about__content--skill .about__skill--flex .about__skill--back .bar-graph-wrap .graph--go {
-  height: 10px;
+  height: 5px;
   position: absolute;
   left: 0;
   top: 0;
@@ -488,7 +488,7 @@
   font-size: 15px;
 }
 .about__main .about__content--skill .about__skill--others .about__skill--right .bar-graph-wrap .graph--py {
-  height: 10px;
+  height: 5px;
   position: absolute;
   left: 0;
   top: 0;
@@ -499,7 +499,7 @@
   border-radius: 0 4px 4px 0;
 }
 .about__main .about__content--skill .about__skill--others .about__skill--right .bar-graph-wrap .graph--swift {
-  height: 10px;
+  height: 5px;
   position: absolute;
   left: 0;
   top: 0;
@@ -533,7 +533,7 @@
   font-size: 15px;
 }
 .about__main .about__content--skill .about__skill--others .about__skill--left .bar-graph-wrap .graph--swift {
-  height: 10px;
+  height: 5px;
   position: absolute;
   left: 0;
   top: 0;
