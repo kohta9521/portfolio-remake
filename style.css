@@ -420,7 +420,40 @@
   bottom: 0;
   margin: auto;
   background: #ffbf00;
-  width: 90%;
+  width: 50%;
+  border-radius: 0 4px 4px 0;
+}
+.about__main .about__content--skill .about__skill--flex .about__skill--back .bar-graph-wrap .graph--sql {
+  height: 10px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  background: #ffbf00;
+  width: 40%;
+  border-radius: 0 4px 4px 0;
+}
+.about__main .about__content--skill .about__skill--flex .about__skill--back .bar-graph-wrap .graph--java {
+  height: 10px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  background: #ffbf00;
+  width: 20%;
+  border-radius: 0 4px 4px 0;
+}
+.about__main .about__content--skill .about__skill--flex .about__skill--back .bar-graph-wrap .graph--go {
+  height: 10px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  background: #ffbf00;
+  width: 30%;
   border-radius: 0 4px 4px 0;
 }
 .about__main .about__content--skill .about__skill--others {
@@ -434,7 +467,6 @@
 .about__main .about__content--skill .about__skill--others .about__skill--right {
   width: 40%;
   height: 300px;
-  background-color: aqua;
   margin-left: 50px;
 }
 .about__main .about__content--skill .about__skill--others .about__skill--right h3 {
@@ -442,12 +474,74 @@
   font-size: 32px;
   line-height: 22px;
   color: white;
+  margin-bottom: 50px;
+}
+.about__main .about__content--skill .about__skill--others .about__skill--right .bar-graph-wrap {
+  position: relative;
+  height: 70px;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+}
+.about__main .about__content--skill .about__skill--others .about__skill--right .bar-graph-wrap .graph--title {
+  display: flex;
+  color: white;
+  justify-content: space-between;
+  font-size: 15px;
+}
+.about__main .about__content--skill .about__skill--others .about__skill--right .bar-graph-wrap .graph--py {
+  height: 10px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  background: #ffbf00;
+  width: 50%;
+  border-radius: 0 4px 4px 0;
+}
+.about__main .about__content--skill .about__skill--others .about__skill--right .bar-graph-wrap .graph--swift {
+  height: 10px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  background: #ffbf00;
+  width: 30%;
+  border-radius: 0 4px 4px 0;
 }
 .about__main .about__content--skill .about__skill--others .about__skill--left {
   width: 40%;
   height: 300px;
-  background-color: aqua;
   margin-right: 50px;
+}
+.about__main .about__content--skill .about__skill--others .about__skill--left .bar-graph-wrap {
+  position: relative;
+  height: 70px;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+}
+.about__main .about__content--skill .about__skill--others .about__skill--left .bar-graph-wrap .graph--titleo {
+  display: flex;
+  color: white;
+  justify-content: space-between;
+  font-size: 15px;
+  margin-top: 70px;
+}
+.about__main .about__content--skill .about__skill--others .about__skill--left .bar-graph-wrap .graph--title {
+  display: flex;
+  color: white;
+  justify-content: space-between;
+  font-size: 15px;
+}
+.about__main .about__content--skill .about__skill--others .about__skill--left .bar-graph-wrap .graph--swift {
+  height: 10px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  background: #ffbf00;
+  width: 50%;
+  border-radius: 0 4px 4px 0;
 }
 
 /*! destyle.css v3.0.2 | MIT License | https://github.com/nicolas-cusan/destyle.css */

@@ -181,7 +181,40 @@
                         bottom: 0;
                         margin: auto;
                         background: #ffbf00;
-                        width: 90%;
+                        width: 50%;
+                        border-radius: 0 4px 4px 0;
+                    }
+                    & .graph--sql {
+                        height: 10px;
+                        position: absolute;
+                        left: 0;
+                        top: 0;
+                        bottom: 0;
+                        margin: auto;
+                        background: #ffbf00;
+                        width: 40%;
+                        border-radius: 0 4px 4px 0;
+                    }
+                    & .graph--java {
+                        height: 10px;
+                        position: absolute;
+                        left: 0;
+                        top: 0;
+                        bottom: 0;
+                        margin: auto;
+                        background: #ffbf00;
+                        width: 20%;
+                        border-radius: 0 4px 4px 0;
+                    }
+                    & .graph--go {
+                        height: 10px;
+                        position: absolute;
+                        left: 0;
+                        top: 0;
+                        bottom: 0;
+                        margin: auto;
+                        background: #ffbf00;
+                        width: 30%;
                         border-radius: 0 4px 4px 0;
                     }
                 }
@@ -197,21 +230,82 @@
             & .about__skill--right {
                 width: 40%;
                 height: 300px;
-                background-color: aqua;
                 margin-left: 50px;
                 & h3 {
                     font-weight: 400;
                     font-size: 32px;
                     line-height: 22px;
                     color: white;
+                    margin-bottom: 50px;
+                }
+                & .bar-graph-wrap {
+                    position: relative;
+                    height: 70px;
+                    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+                    & .graph--title {
+                        display: flex;
+                        color: white;
+                        justify-content: space-between;
+                        font-size: 15px;
+                    }
+                    & .graph--py {
+                        height: 10px;
+                        position: absolute;
+                        left: 0;
+                        top: 0;
+                        bottom: 0;
+                        margin: auto;
+                        background: #ffbf00;
+                        width: 50%;
+                        border-radius: 0 4px 4px 0;
+                    }
+                    & .graph--swift {
+                        height: 10px;
+                        position: absolute;
+                        left: 0;
+                        top: 0;
+                        bottom: 0;
+                        margin: auto;
+                        background: #ffbf00;
+                        width: 30%;
+                        border-radius: 0 4px 4px 0;
+                    }
                 }
             }
             & .about__skill--left {
                 width: 40%;
                 height: 300px;
-                background-color: aqua;
                 margin-right: 50px;
+                & .bar-graph-wrap {
+                    position: relative;
+                    height: 70px;
+                    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+                    & .graph--titleo {
+                        display: flex;
+                        color: white;
+                        justify-content: space-between;
+                        font-size: 15px;
+                        margin-top: 70px;
+                    }
+                    & .graph--title {
+                        display: flex;
+                        color: white;
+                        justify-content: space-between;
+                        font-size: 15px;
+                    }
+                    & .graph--swift {
+                        height: 10px;
+                        position: absolute;
+                        left: 0;
+                        top: 0;
+                        bottom: 0;
+                        margin: auto;
+                        background: #ffbf00;
+                        width: 50%;
+                        border-radius: 0 4px 4px 0;
+                    }
             }
         }
     }
+}
 }
