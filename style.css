@@ -331,31 +331,63 @@
   font-weight: 400;
   font-size: 32px;
   line-height: 22px;
+  margin-bottom: 60px;
   color: white;
 }
 .about__main .about__content--skill .about__skill--flex .about__skill--front .bar-graph-wrap {
   position: relative;
-  height: 350px;
+  height: 70px;
   box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
 }
-.about__main .about__content--skill .about__skill--flex .about__skill--front .bar-graph-wrap .graph {
-  height: 20px;
+.about__main .about__content--skill .about__skill--flex .about__skill--front .bar-graph-wrap .graph--title {
+  display: flex;
+  color: white;
+  justify-content: space-between;
+  font-size: 15px;
+}
+.about__main .about__content--skill .about__skill--flex .about__skill--front .bar-graph-wrap .graph--html {
+  height: 10px;
   position: absolute;
   left: 0;
   top: 0;
   bottom: 0;
   margin: auto;
-  background: #FFE600;
-  width: 88%;
+  background: #ffbf00;
+  width: 90%;
   border-radius: 0 4px 4px 0;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 10px;
 }
-.about__main .about__content--skill .about__skill--flex .about__skill--front .bar-graph-wrap .graph .span {
-  font-size: 14px;
-  color: #ffffff;
+.about__main .about__content--skill .about__skill--flex .about__skill--front .bar-graph-wrap .graph--css {
+  height: 10px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  background: #ffbf00;
+  width: 70%;
+  border-radius: 0 4px 4px 0;
+}
+.about__main .about__content--skill .about__skill--flex .about__skill--front .bar-graph-wrap .graph--scss {
+  height: 10px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  background: #ffbf00;
+  width: 60%;
+  border-radius: 0 4px 4px 0;
+}
+.about__main .about__content--skill .about__skill--flex .about__skill--front .bar-graph-wrap .graph--js {
+  height: 10px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  background: #ffbf00;
+  width: 40%;
+  border-radius: 0 4px 4px 0;
 }
 .about__main .about__content--skill .about__skill--flex .about__skill--back {
   width: 40%;
@@ -367,6 +399,29 @@
   font-size: 32px;
   line-height: 22px;
   color: white;
+  margin-bottom: 60px;
+}
+.about__main .about__content--skill .about__skill--flex .about__skill--back .bar-graph-wrap {
+  position: relative;
+  height: 70px;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+}
+.about__main .about__content--skill .about__skill--flex .about__skill--back .bar-graph-wrap .graph--title {
+  display: flex;
+  color: white;
+  justify-content: space-between;
+  font-size: 15px;
+}
+.about__main .about__content--skill .about__skill--flex .about__skill--back .bar-graph-wrap .graph--php {
+  height: 10px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  background: #ffbf00;
+  width: 90%;
+  border-radius: 0 4px 4px 0;
 }
 .about__main .about__content--skill .about__skill--others {
   width: 100%;
