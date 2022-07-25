@@ -608,6 +608,22 @@
   vertical-align: bottom;
 }
 
+.side--stories {
+  display: block;
+}
+.side--stories h1 {
+  position: relative;
+  right: 60px;
+}
+
+.stories__main {
+  width: 75%;
+  height: 2000px;
+  margin-top: -80px;
+  margin-left: 250px;
+  border-left: 1px solid white;
+}
+
 /*! destyle.css v3.0.2 | MIT License | https://github.com/nicolas-cusan/destyle.css */
 /* Reset box-model and set borders */
 /* ============================================ */
