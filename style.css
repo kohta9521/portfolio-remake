@@ -235,7 +235,7 @@
 
 .about__main {
   width: 75%;
-  height: 2000px;
+  height: 2600px;
   margin-top: -80px;
   margin-left: 250px;
   border-left: 1px solid white;
@@ -346,7 +346,7 @@
   font-size: 15px;
 }
 .about__main .about__content--skill .about__skill--flex .about__skill--front .bar-graph-wrap .graph--html {
-  height: 10px;
+  height: 5px;
   position: absolute;
   left: 0;
   top: 0;
@@ -357,7 +357,7 @@
   border-radius: 0 4px 4px 0;
 }
 .about__main .about__content--skill .about__skill--flex .about__skill--front .bar-graph-wrap .graph--css {
-  height: 10px;
+  height: 5px;
   position: absolute;
   left: 0;
   top: 0;
@@ -368,7 +368,7 @@
   border-radius: 0 4px 4px 0;
 }
 .about__main .about__content--skill .about__skill--flex .about__skill--front .bar-graph-wrap .graph--scss {
-  height: 10px;
+  height: 5px;
   position: absolute;
   left: 0;
   top: 0;
@@ -379,7 +379,7 @@
   border-radius: 0 4px 4px 0;
 }
 .about__main .about__content--skill .about__skill--flex .about__skill--front .bar-graph-wrap .graph--js {
-  height: 10px;
+  height: 5px;
   position: absolute;
   left: 0;
   top: 0;
@@ -413,14 +413,47 @@
   font-size: 15px;
 }
 .about__main .about__content--skill .about__skill--flex .about__skill--back .bar-graph-wrap .graph--php {
-  height: 10px;
+  height: 5px;
   position: absolute;
   left: 0;
   top: 0;
   bottom: 0;
   margin: auto;
   background: #ffbf00;
-  width: 90%;
+  width: 50%;
+  border-radius: 0 4px 4px 0;
+}
+.about__main .about__content--skill .about__skill--flex .about__skill--back .bar-graph-wrap .graph--sql {
+  height: 5px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  background: #ffbf00;
+  width: 40%;
+  border-radius: 0 4px 4px 0;
+}
+.about__main .about__content--skill .about__skill--flex .about__skill--back .bar-graph-wrap .graph--java {
+  height: 5px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  background: #ffbf00;
+  width: 20%;
+  border-radius: 0 4px 4px 0;
+}
+.about__main .about__content--skill .about__skill--flex .about__skill--back .bar-graph-wrap .graph--go {
+  height: 5px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  background: #ffbf00;
+  width: 30%;
   border-radius: 0 4px 4px 0;
 }
 .about__main .about__content--skill .about__skill--others {
@@ -434,7 +467,6 @@
 .about__main .about__content--skill .about__skill--others .about__skill--right {
   width: 40%;
   height: 300px;
-  background-color: aqua;
   margin-left: 50px;
 }
 .about__main .about__content--skill .about__skill--others .about__skill--right h3 {
@@ -442,12 +474,138 @@
   font-size: 32px;
   line-height: 22px;
   color: white;
+  margin-bottom: 50px;
+}
+.about__main .about__content--skill .about__skill--others .about__skill--right .bar-graph-wrap {
+  position: relative;
+  height: 70px;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+}
+.about__main .about__content--skill .about__skill--others .about__skill--right .bar-graph-wrap .graph--title {
+  display: flex;
+  color: white;
+  justify-content: space-between;
+  font-size: 15px;
+}
+.about__main .about__content--skill .about__skill--others .about__skill--right .bar-graph-wrap .graph--py {
+  height: 5px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  background: #ffbf00;
+  width: 50%;
+  border-radius: 0 4px 4px 0;
+}
+.about__main .about__content--skill .about__skill--others .about__skill--right .bar-graph-wrap .graph--swift {
+  height: 5px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  background: #ffbf00;
+  width: 30%;
+  border-radius: 0 4px 4px 0;
 }
 .about__main .about__content--skill .about__skill--others .about__skill--left {
   width: 40%;
   height: 300px;
-  background-color: aqua;
   margin-right: 50px;
+}
+.about__main .about__content--skill .about__skill--others .about__skill--left .bar-graph-wrap {
+  position: relative;
+  height: 70px;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+}
+.about__main .about__content--skill .about__skill--others .about__skill--left .bar-graph-wrap .graph--titleo {
+  display: flex;
+  color: white;
+  justify-content: space-between;
+  font-size: 15px;
+  margin-top: 70px;
+}
+.about__main .about__content--skill .about__skill--others .about__skill--left .bar-graph-wrap .graph--title {
+  display: flex;
+  color: white;
+  justify-content: space-between;
+  font-size: 15px;
+}
+.about__main .about__content--skill .about__skill--others .about__skill--left .bar-graph-wrap .graph--swift {
+  height: 5px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  background: #ffbf00;
+  width: 50%;
+  border-radius: 0 4px 4px 0;
+}
+.about__main .about__content--skill .about__content--image {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: space-around;
+}
+.about__main .about__content--skill .about__content--image img {
+  margin-top: 100px;
+  width: 40%;
+  height: 60%;
+}
+
+.side--port {
+  display: block;
+}
+.side--port h1 {
+  position: relative;
+  right: 250px;
+}
+
+.port__main {
+  width: 75%;
+  height: 2000px;
+  margin-top: -80px;
+  margin-left: 250px;
+  border-left: 1px solid white;
+}
+.port__main .port__content--item {
+  width: 100%;
+  height: 250px;
+}
+.port__main .port__content--item h1 {
+  font-weight: 400;
+  font-size: 70px;
+  line-height: 54px;
+  color: rgba(255, 255, 255, 0.54);
+  margin-left: 50px;
+}
+.port__main .port__content--item p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: white;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+.port__main .port__gallery {
+  -moz-columns: 4;
+       columns: 4;
+  padding: 0 15px;
+  margin: 0;
+  width: 100%;
+  height: 1600px;
+  margin-left: 30px;
+}
+.port__main .port__gallery li {
+  margin-bottom: 20px;
+  list-style: none;
+}
+.port__main .port__gallery li img {
+  width: 100%;
+  height: auto;
+  vertical-align: bottom;
 }
 
 /*! destyle.css v3.0.2 | MIT License | https://github.com/nicolas-cusan/destyle.css */
